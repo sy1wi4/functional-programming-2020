@@ -1,1 +1,1 @@
-# functional-programming-2020
+# Functional Programming
