@@ -1,3 +1,5 @@
+-- wyrażenie warunkowe if...then...else
+
 sgn :: Int -> Int
 sgn n = if n < 0
        then -1
