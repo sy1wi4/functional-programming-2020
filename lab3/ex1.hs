@@ -1,7 +1,7 @@
 -- Funkcje anonimowe i currying
 
--- funkcje anonimowe - wyrażenia lambda (argumenty przekazywane funkcjom wyższego rzędu
--- lub do budowania wyniku funkcji wyższego rzędu, która musi zwracać funkcję)
+-- funkcje anonimowe - wyrażenia lambda (argumenty przekazywane funkcjom wyższego rzędu lub
+-- do budowania wyniku funkcji wyższego rzędu, która musi zwracać funkcję)
 
 
 f1 = \x -> x-2
