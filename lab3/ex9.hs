@@ -49,3 +49,7 @@ prodWith''' g = foldl' (\acc x -> g x * acc) 1
 -- np:
 -- foldr (-) 2 [1,3,5] == (1 - (3 - (5 - 2))) == 1
 -- foldl (-) 2 [1,3,5] == (((2 - 1) - 3) - 5) == -7
+
+
+-- Foldr1 i foldl1 używają odpowiednio ostatniego 
+-- i pierwszego elementu listy w miejsce wartości początkowej
