@@ -41,6 +41,7 @@ onlyUpper' = filter' isUpper
 -- length (filter even [1..10^6])
 
 -- Zmodyfikować powyższe wyrażenia tak, aby nie zawierały nawiasów (użyć . i/lub $)
+
 -- length $ onlyEven [1..10^6]
 -- length $ filter even [1..10^6]
 
