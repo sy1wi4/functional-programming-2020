@@ -47,5 +47,5 @@ sumWith''' g  = foldl' (\acc x -> g x + acc) 0
 prodWith''' g = foldl' (\acc x -> g x * acc) 1
 
 -- np:
--- foldr (-) 2 [1,3,5] == (1 - (3 - (2 - 5))) == 1
+-- foldr (-) 2 [1,3,5] == (1 - (3 - (5 - 2))) == 1
 -- foldl (-) 2 [1,3,5] == (((2 - 1) - 3) - 5) == -7
